@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aurelia Vance - Contemporary Fine Artist & Photographer. Highlighting bespoke oil paintings, sculptural installations, and limited edition fine art prints.">
+  <meta name="keywords" content="Fine Art, Contemporary Artist, Luxury Art Portfolio, Oil Paintings, Sculptures, Art Commissions, Photography">
+  <meta name="author" content="Aurelia Vance Studio">
+
+  <!-- Open Graph / Social Media Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aurelia Vance | Fine Artist & Atelier Studio">
+  <meta property="og:description" content="Explore museum-quality oil paintings, sculptures, and fine art commissions by Aurelia Vance.">
+  <meta property="og:image" content="images/hero/hero-main.jpg">
+  <meta property="og:url" content="https://aureliavance.art">
+
+  <title id="site-title">Aurelia Vance — Fine Artist & Photographer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-theme="dark">
+
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="index.html" class="brand-logo" id="brand-logo-link" aria-label="Aurelia Vance Atelier Home">
+        <span class="logo-text" id="config-brand-name">AURELIA VANCE</span>
+        <span class="logo-subtext" id="config-job-title">FINE ARTIST</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#exhibitions" class="nav-link">Exhibitions</a></li>
+          <li><a href="#commission" class="nav-link">Commissions</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Action CTA -->
+      <div class="header-actions">
+        <a href="#commission" class="btn btn-outline-gold header-cta">Inquire Commission</a>
+        <button class="mobile-toggle" id="mobile-toggle-btn" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav class="mobile-nav">
+        <ul class="mobile-nav-list">
+          <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+          <li><a href="#about" class="mobile-nav-link">About & Bio</a></li>
+          <li><a href="#gallery" class="mobile-nav-link">Artistic Gallery</a></li>
+          <li><a href="#exhibitions" class="mobile-nav-link">Exhibitions & Awards</a></li>
+          <li><a href="#commission" class="mobile-nav-link">Commission Request</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact Atelier</a></li>
+        </ul>
+        <div class="mobile-menu-footer">
+          <p id="config-mobile-email">contact@aureliavance.art</p>
+          <div class="mobile-socials" id="mobile-socials-container"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- 1. FULLSCREEN ARTISTIC HERO -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-container">
+        <div class="hero-content reveal-up">
+          <span class="eyebrow-tag" id="config-hero-tagline">ORIGINAL WORKS & ATELIER COMMISSIONS</span>
+          <h1 class="hero-title" id="config-hero-title">Capturing standard light through timeless texture.</h1>
+          <p class="hero-description" id="config-hero-desc">
+            Exploring human vulnerability, organic light, and quiet atmospheric textures through oil on Belgian linen and sculptural mixed media.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#gallery" class="btn btn-primary-gold">View Gallery Collection</a>
+            <a href="#about" class="btn btn-glass">Artist Biography</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal-fade">
+          <div class="hero-image-frame">
+            <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1200&q=85" alt="Featured oil painting artwork by Aurelia Vance" id="hero-main-img" loading="eager" width="1200" height="1500">
+            <div class="artwork-badge" id="hero-artwork-badge">
+              <span class="badge-title">Ethereal Solitude No. 4</span>
+              <span class="badge-meta">Oil on Canvas, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down-indicator" aria-label="Scroll to About section">
+        <span class="scroll-text">SCROLL</span>
+        <span class="scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- 2. ARTIST INTRODUCTION & QUICK STATS -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="grid-2-col align-center">
+          <div class="about-image-wrapper reveal-right">
+            <div class="image-stack">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Artist portrait in studio" class="primary-artist-img" id="config-artist-img">
+              <div class="experience-card glass-panel">
+                <span class="stat-number" id="config-stat-exp">12+</span>
+                <span class="stat-label">Years of Atelier Practice</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-text-wrapper reveal-left">
+            <span class="section-subtitle">BIOGRAPHY & PHILOSOPHY</span>
+            <h2 class="section-title" id="config-about-heading">Art that evokes quiet contemplation and spatial balance.</h2>
+            <div class="about-bio-text" id="config-about-text">
+              <p>Based in Paris and New York, Aurelia Vance balances traditional European oil glazing techniques with modern minimalism. Her works are held in private collections across Europe, North America, and Asia.</p>
+            </div>
+            
+            <div class="stats-grid" id="stats-grid-container">
+              <!-- Dynamically populated from JS -->
+            </div>
+
+            <div class="artist-signature-block">
+              <div class="signature-text" id="config-signature-text">Aurelia Vance</div>
+              <span class="signature-title">Master Artist & Founder</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. FEATURED ARTWORK & COMPLETE MASONRY GALLERY -->
+    <section class="gallery-section section-padding" id="gallery">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-subtitle">CURATED WORKS</span>
+          <h2 class="section-title">The Master Collection</h2>
+          <p class="section-desc">Filter through available original paintings, bronze sculptures, and limited edition prints.</p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="gallery-filter-bar reveal-up">
+          <button class="filter-btn active" data-filter="all">All Artworks</button>
+          <button class="filter-btn" data-filter="paintings">Paintings</button>
+          <button class="filter-btn" data-filter="sculpture">Sculpture</button>
+          <button class="filter-btn" data-filter="photography">Photography</button>
+          <button class="filter-btn" data-filter="digital">Digital Fine Art</button>
+        </div>
+
+        <!-- Masonry Grid -->
+        <div class="gallery-masonry-grid" id="gallery-grid">
+          <!-- Dynamically Rendered via js/components.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. EXHIBITIONS & AWARDS TIMELINE -->
+    <section class="exhibitions-section section-padding" id="exhibitions">
+      <div class="container">
+        <div class="grid-2-col">
+          <!-- Exhibitions -->
+          <div class="exhibitions-column reveal-up">
+            <span class="section-subtitle">RECORD OF SHOWS</span>
+            <h2 class="section-title">Selected Exhibitions</h2>
+            <div class="timeline-list" id="exhibitions-timeline">
+              <!-- Dynamically Populated -->
+            </div>
+          </div>
+
+          <!-- Awards & Collections -->
+          <div class="awards-column reveal-up">
+            <span class="section-subtitle">RECOGNITION</span>
+            <h2 class="section-title">Awards & Honors</h2>
+            <div class="awards-list" id="awards-list-container">
+              <!-- Dynamically Populated -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. COMMISSION REQUEST SECTION -->
+    <section class="commission-section section-padding bg-darker" id="commission">
+      <div class="container">
+        <div class="commission-card glass-panel reveal-up">
+          <div class="grid-2-col align-center">
+            <div class="commission-info">
+              <span class="section-subtitle">BESPOKE CREATION</span>
+              <h2 class="section-title">Commission a Custom Masterpiece</h2>
+              <p class="commission-desc">
+                Aurelia Vance accepts a limited number of private and corporate commissions each year for custom sizes, site-specific installations, and architectural projects.
+              </p>
+              <ul class="commission-perks">
+                <li><span class="check-icon">✓</span> Personalized color study and architectural mockup</li>
+                <li><span class="check-icon">✓</span> Signed Certificate of Authenticity & provenance documentation</li>
+                <li><span class="check-icon">✓</span> Worldwide museum-grade white-glove crate delivery</li>
+              </ul>
+              <div class="direct-contact-hint">
+                <span>Prefer direct communication?</span>
+                <a href="#" id="config-whatsapp-btn" class="whatsapp-link" target="_blank" rel="noopener">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                  Chat on WhatsApp
+                </a>
+              </div>
+            </div>
+
+            <!-- Commission Form -->
+            <form class="commission-form" id="commission-form" novalidate>
+              <div class="form-group">
+                <label for="comm-name">Your Full Name *</label>
+                <input type="text" id="comm-name" name="name" required placeholder="e.g. Lady Eleanor Vance">
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="comm-email">Email Address *</label>
+                  <input type="email" id="comm-email" name="email" required placeholder="name@domain.com">
+                </div>
+                <div class="form-group">
+                  <label for="comm-phone">Phone / WhatsApp</label>
+                  <input type="tel" id="comm-phone" name="phone" placeholder="+1 (555) 000-0000">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="comm-type">Artwork Medium</label>
+                  <select id="comm-type" name="type">
+                    <option value="oil-painting">Oil on Linen</option>
+                    <option value="sculpture">Bronze / Marble Sculpture</option>
+                    <option value="charcoal">Charcoal & Gold Leaf</option>
+                    <option value="mural">Architectural Wall Mural</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="comm-budget">Estimated Budget (USD)</label>
+                  <select id="comm-budget" name="budget">
+                    <option value="5k-10k">$5,000 – $10,000</option>
+                    <option value="10k-25k">$10,000 – $25,000</option>
+                    <option value="25k+">$25,000+</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="comm-desc">Vision & Space Details *</label>
+                <textarea id="comm-desc" name="description" rows="4" required placeholder="Describe dimensions, wall location, preferred palette, or mood..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary-gold btn-block">Submit Commission Inquiry</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. TESTIMONIALS & COLLECTOR REVIEWS -->
+    <section class="testimonials-section section-padding" id="testimonials">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-subtitle">COLLECTOR VOICES</span>
+          <h2 class="section-title">Praise from Curators & Collectors</h2>
+        </div>
+        <div class="testimonials-slider-container reveal-up" id="testimonials-container">
+          <!-- Dynamically Populated -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. INSTAGRAM & STUDIO GALLERY SLIDER -->
+    <section class="instagram-section section-padding bg-darker">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-subtitle">ATELIER INSIGHTS</span>
+          <h2 class="section-title">Follow the Creative Process</h2>
+          <p id="config-insta-handle">@aureliavance.studio</p>
+        </div>
+        <div class="instagram-grid" id="instagram-grid-container">
+          <!-- Dynamically Populated -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CONTACT SECTION -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="grid-2-col">
+          <div class="contact-info-block reveal-right">
+            <span class="section-subtitle">REPRESENTATION & INQUIRIES</span>
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-lead">For gallery inquiries, press kits, or private viewing appointments at the studio.</p>
+
+            <div class="contact-details-list">
+              <div class="contact-detail-item">
+                <span class="detail-label">STUDIO LOCATION</span>
+                <span class="detail-value" id="config-contact-address">740 Rue du Faubourg Saint-Honoré, 75008 Paris, France</span>
+              </div>
+              <div class="contact-detail-item">
+                <span class="detail-label">DIRECT EMAIL</span>
+                <a href="#" class="detail-value link-hover" id="config-contact-email">contact@aureliavance.art</a>
+              </div>
+              <div class="contact-detail-item">
+                <span class="detail-label">ATELIER TELEPHONE</span>
+                <a href="#" class="detail-value link-hover" id="config-contact-phone">+33 1 42 68 00 00</a>
+              </div>
+              <div class="contact-detail-item">
+                <span class="detail-label">VISITING HOURS</span>
+                <span class="detail-value" id="config-contact-hours">By Private Appointment Only (Tue – Sat)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-block reveal-left">
+            <form class="general-contact-form" id="general-contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name">Name *</label>
+                <input type="text" id="contact-name" name="name" required placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email *</label>
+                <input type="email" id="contact-email" name="email" required placeholder="Your email address">
+              </div>
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <input type="text" id="contact-subject" name="subject" placeholder="Private acquisition / Gallery show / Press">
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Message *</label>
+                <textarea id="contact-message" name="message" rows="5" required placeholder="How can we assist you?"></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-gold btn-block">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo" id="config-footer-logo">AURELIA VANCE</span>
+          <p class="footer-tagline" id="config-footer-tagline">Contemporary Fine Art & Sculptural Fine Atelier.</p>
+        </div>
+        <div class="footer-nav-col">
+          <span class="footer-col-title">Navigation</span>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#exhibitions">Exhibitions</a></li>
+            <li><a href="#commission">Commissions</a></li>
+          </ul>
+        </div>
+        <div class="footer-social-col">
+          <span class="footer-col-title">Social Networks</span>
+          <div class="footer-social-links" id="footer-socials-container">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright-text" id="config-copyright">© 2026 Aurelia Vance. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Acquisition</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ARTWORK DETAIL MODAL -->
+  <div class="modal-overlay" id="artwork-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-artwork-title">
+    <div class="modal-card glass-panel">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <div class="modal-body-grid">
+        <div class="modal-image-col">
+          <img src="" alt="" id="modal-artwork-img">
+        </div>
+        <div class="modal-details-col">
+          <span class="modal-category-tag" id="modal-artwork-cat">Painting</span>
+          <h2 class="modal-title" id="modal-artwork-title">Artwork Title</h2>
+          <span class="modal-price" id="modal-artwork-price">$12,000 USD</span>
+          
+          <div class="modal-spec-list">
+            <div class="spec-item">
+              <span class="spec-label">Year:</span>
+              <span class="spec-value" id="modal-artwork-year">2025</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Medium:</span>
+              <span class="spec-value" id="modal-artwork-medium">Oil on Belgian Linen</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Dimensions:</span>
+              <span class="spec-value" id="modal-artwork-dims">120 x 150 cm</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Status:</span>
+              <span class="spec-value status-badge" id="modal-artwork-status">Available</span>
+            </div>
+          </div>
+
+          <p class="modal-desc" id="modal-artwork-desc">Artwork detailed narrative describing inspiration, texture, and physical character.</p>
+
+          <div class="modal-cta-group">
+            <a href="#contact" class="btn btn-primary-gold btn-block" id="modal-inquire-btn">Inquire for Private Acquisition</a>
+            <a href="#" class="btn btn-outline-gold btn-block" id="modal-whatsapp-btn" target="_blank">Direct WhatsApp Inquiry</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button class="back-to-top" id="back-to-top-btn" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- JavaScript Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
